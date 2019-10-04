@@ -18,22 +18,22 @@
 using System;
 public class GotoTest
 {
- static void Main(string[] args)
- {
- Console.WriteLine("Line 1");
- Console.WriteLine("Line 2");
- Console.WriteLine("Line 3");
- line4:
- Console.WriteLine("Line 4");
- Console.WriteLine("Line 5");
- Console.WriteLine("Line 6");
- goto line10;
- Console.WriteLine("Line 7");
- Console.WriteLine("Line 8");
- Console.WriteLine("Line 9");
- line10:
- Console.WriteLine("Line 10");
- }
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Line 1");
+        Console.WriteLine("Line 2");
+        Console.WriteLine("Line 3");
+        line4:
+        Console.WriteLine("Line 4");
+        Console.WriteLine("Line 5");
+        Console.WriteLine("Line 6");
+        goto line10;
+        Console.WriteLine("Line 7");
+        Console.WriteLine("Line 8");
+        Console.WriteLine("Line 9");
+        line10:
+        Console.WriteLine("Line 10");
+    }
 }
 ```
 
@@ -41,7 +41,6 @@ public class GotoTest
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -102,7 +101,6 @@ namespace ConsoleApp2
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -167,7 +165,6 @@ namespace ConsoleApp2
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -195,7 +192,6 @@ public class TryCatch
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -229,7 +225,6 @@ public class TryCatch
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -265,7 +260,6 @@ public class TryCatch
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -295,7 +289,6 @@ public class TryCatch
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -320,7 +313,6 @@ public class TryCatch
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -347,7 +339,6 @@ public class TryCatch
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -381,7 +372,6 @@ public class ExceptionLearning
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -437,7 +427,6 @@ public class ExceptionLearning
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -500,7 +489,6 @@ public class IfLearning
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -551,7 +539,6 @@ public class IfLearning
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -602,7 +589,6 @@ public class IfLearning
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -643,7 +629,6 @@ public class IfLearning
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -708,7 +693,6 @@ public class switchLearning
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -765,7 +749,6 @@ namespace ConsoleApp2
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -799,7 +782,6 @@ namespace ConsoleApp2
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -844,7 +826,6 @@ namespace ConsoleApp2
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -888,7 +869,6 @@ namespace ConsoleApp2
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -917,7 +897,6 @@ namespace ConsoleApp2
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -950,7 +929,6 @@ namespace ConsoleApp2
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -992,7 +970,6 @@ namespace ConsoleApp2
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -1028,7 +1005,6 @@ namespace ConsoleApp2
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -1075,7 +1051,6 @@ namespace ConsoleApp2
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -1118,7 +1093,6 @@ namespace ConsoleApp2
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
@@ -1180,7 +1154,6 @@ namespace ConsoleApp2
 
 ``` text
 
-บันทึกการทดลอง
 
 
 ```
