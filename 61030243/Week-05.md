@@ -1036,6 +1036,7 @@ namespace ConsoleApp2
 ```Text
 
 Error
+เนื่องจาก Console.WriteLine() ไม่ได้อยู่ในลูป
 
 ```
 
