@@ -10,31 +10,45 @@ namespace lab5
     {
         static void Main(string[] args)
         {
-            Console.Write("Input your grade (A, B, C, D or F) : ");
-            string gradeString = Console.ReadLine();
-            string message;
-            switch (gradeString.ToUpper())
+            string day = null;
+            string color = null;
+            Console.Write("Input day name : ");
+            string name = Console.ReadLine();
+            switch (name.ToLower())
             {
-                case "A":
-                    message = "Excellent";
+                case "sun":
+                    day = "Sunday";
+                    color = "Red";
                     break;
-                case "B":
-                    message = "Good";
+                case "mon":
+                    day = "Monday";
+                    color = "Yellow"; 
+                break;
+                case "tue":
+                    day = "Tuesday";
+                    color = "Pink";
+                break;
+                case "wed":
+                    day = "Wednesday";
+                    color = "Green";
                     break;
-                case "C":
-                    message = "Cool";
+                case "thu":
+                    day = "Thursday";
+                    color = "Orange";
                     break;
-                case "D":
-                    message = "Try";
+                case "fri":
+                    day = "Friday";
+                    color = "Blue";
                     break;
-                case "F":
-                    message = "Get out!!";
+                case "sat":
+                    day = "Saturday";
+                    color = "Purple";
                     break;
                 default:
-                    message = "Incorrect grade";
+                    day = color = "invalid";
                     break;
             }
-            Console.WriteLine(message);
+            Console.WriteLine($"{name} is {day}, color {color}");
         }
     }
 }
