@@ -1,3 +1,3 @@
 # Computer Laboratory V
 
-## [ใบงานLab5](./week-05.md)
+## [บันทึกผลการทดลอง](./Week-05.md)
