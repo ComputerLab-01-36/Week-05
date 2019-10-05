@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
+
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -36,7 +36,7 @@ namespace lab5
         }
         private static int div(int a, int b)
         {
-            throw new FileNotFoundException();
+            throw new FormatException();
         }
     }
 }
