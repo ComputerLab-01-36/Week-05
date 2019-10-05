@@ -8,6 +8,8 @@ namespace lab5
 {
     class Program
     {
+        private static bool i;
+
         static void Main(string[] args)
         {
             for (int i = 1; i <= 100; i++)
@@ -16,8 +18,8 @@ namespace lab5
                 {
                     break;
                 }
-                Console.WriteLine(i);
             }
+            Console.WriteLine(i);
             // Keep the console open in debug mode.
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
